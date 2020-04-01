@@ -1,0 +1,20 @@
+## 此配置信息都已经配置到nacos中
+#server:
+#  port: 8081
+#spring:
+#  cloud:
+#    nacos:
+#      discovery: #注意这里别写错
+#        server-addr: 127.0.0.1:8848
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://192.168.33.50:3306/guli_pms
+#    username: root
+#    password: root
+#  redis:
+#    host: 127.0.0.1
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      id-type: auto   #默认的是全局分布式id
+#  mapper-locations: classpath:mapper/pms/**/*.xml  #对应的是resource中的mapper
